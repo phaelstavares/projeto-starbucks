@@ -19,14 +19,14 @@ div.conteudo {
 }
 
 div.caixa-texto {
-    width: 600px;
+    width: 700px;
+    margin-top: -100px;
 }
 
 div.caixa-imagem {
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 250px;
 }
 
 button {
@@ -39,13 +39,12 @@ button {
 
 h2 {
     font-size: 60px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p {
     font-size: 16px;
-    margin: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 span {
@@ -65,9 +64,10 @@ img.copo-starbucks-grande {
 
 img.copo-starbucks-pequeno {
     width: 60px;
+    margin-top: -70px;
 }
 
-img.caixa-menu {
+div.caixa-menu {
     display: flex;
     justify-content: center;
 }
@@ -79,5 +79,5 @@ div.circulo {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(600px at right 900px);
 }

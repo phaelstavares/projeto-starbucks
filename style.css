@@ -29,12 +29,25 @@ div.caixa-imagem {
     justify-content: flex-end; /* joga item todo pro lado */
 }
 
-button {
-    color: #ffffff; /* cor do texto */
-    background-color: #017143; /* cor de fundo */
-    border: none; /* borda */
+button > a {
+    color: #ffffff;
+    background-color: #017143;
+    border: none;
+    text-decoration: none;
     padding: 10px;
     border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+button > a:hover {
+    color: #ffffff; /* cor do texto */
+    background-color: #cc1a64; /* cor de fundo */
+}
+
+button {
+    border: none; /* borda */
+    padding: 0px;
+    border-radius: 0px;
 }
 
 h2 {

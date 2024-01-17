@@ -6,16 +6,16 @@
 }
 
 body {
-    padding-top: 20px;
+    padding-top: 20px; /* adiciona espaçamento */
     padding-right: 100px;
     padding-left: 100px;
 }
 
 div.conteudo {
-    width: 100%;
+    width: 100%; /* largura */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* adiciona espaço entre os itens */
+    align-items: center; /* alinha  tudo ao centro */
 }
 
 div.caixa-texto {
@@ -26,20 +26,20 @@ div.caixa-texto {
 div.caixa-imagem {
     width: 600px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* joga item todo pro lado */
 }
 
 button {
-    color: #ffffff;
-    background-color: #017143;
-    border: none;
+    color: #ffffff; /* cor do texto */
+    background-color: #017143; /* cor de fundo */
+    border: none; /* borda */
     padding: 10px;
     border-radius: 20px;
 }
 
 h2 {
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 60px; /* muda tamanho do texto */
+    font-weight: 600; /* muda a grossura do texto */
 }
 
 p {
@@ -59,7 +59,7 @@ img.logo {
 
 img.copo-starbucks-grande {
     width: 340px;
-    z-index: 1;
+    z-index: 1; /* define se o item está a frente ou atrás */
 }
 
 img.copo-starbucks-pequeno {
@@ -69,7 +69,7 @@ img.copo-starbucks-pequeno {
 
 div.caixa-menu {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* joga itens para o centro */
 }
 
 div.circulo {
@@ -80,4 +80,5 @@ div.circulo {
     top: 0;
     left: 0;
     clip-path: circle(600px at right 900px);
+    z-index: -1;
 }

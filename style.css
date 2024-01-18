@@ -85,10 +85,13 @@ div.caixa-menu {
     justify-content: center; /* joga itens para o centro */
 }
 
-.copo-starbucks-pequeno {
+
+img.copo-starbucks-pequeno {
     width: 60px;
     cursor: pointer;
     transition: 1s;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .copo-starbucks-pequeno:hover {

@@ -1,6 +1,6 @@
 # Projeto Starbucks
 
-Finalizando a semana com mais um projeto produzido com o Rodolfo Mori. Realizado nas aulas ao vivo da "Missão Programação do Zero". 🚀
+Realizado nas aulas ao vivo da "Missão Programação do Zero". 🚀
 
 Nesse "projeto-starbucks" eu obtive grandes aprendizados sobre:
 

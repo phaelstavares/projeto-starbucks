@@ -1,7 +1,6 @@
 # Projeto Starbucks
 
-Realizado nas aulas ao vivo da "Missão Programação do Zero". 🚀
-
+Projeto realizado nas aulas ao vivo da "Missão Programação do Zero". 🚀
 Nesse "projeto-starbucks" eu obtive grandes aprendizados sobre:
 
 - Mentalidade;

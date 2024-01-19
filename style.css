@@ -20,7 +20,7 @@ div.conteudo {
 
 div.caixa-texto {
     width: 700px;
-    margin-top: -100px;
+    margin-top: -5%;
 }
 
 div.caixa-imagem {
@@ -48,6 +48,7 @@ button {
     border: none; /* borda */
     padding: 0px;
     border-radius: 0px;
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -57,12 +58,12 @@ h2 {
 
 p {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+    padding-top: 1%;
 }
 
 span {
     color: #017143;
-    font-size: 70px;
     font-weight: 900px;
 }
 
@@ -73,11 +74,6 @@ img.logo {
 img.copo-starbucks-grande {
     width: 340px;
     z-index: 1; /* define se o item está a frente ou atrás */
-}
-
-img.copo-starbucks-pequeno {
-    width: 60px;
-    margin-top: -70px;
 }
 
 div.caixa-menu {
@@ -91,6 +87,7 @@ img.copo-starbucks-pequeno {
     transition: 1s;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: -5%;
 }
 
 .copo-starbucks-pequeno:hover {
